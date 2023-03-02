@@ -1,0 +1,22 @@
+name: Scheduled Update
+
+on:
+  schedule:
+  - cron: "0 2 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:      
+    - uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - uses: DeterminateSystems/nix-installer-action@v1
+    - name: Update
+      run: ./update.sh
+    - name: Commit & Push changes
+      uses: actions-js/push@v1.4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
