@@ -16,7 +16,11 @@
       packages.x86_64-linux = {
         default = pkgs.stdenv.mkDerivation {
           name = "hound";
-          buildInputs = with pkgs; [ flyctl skopeo ];
+          buildInputs = with pkgs; [
+            flyctl
+            skopeo
+            (python3.withPackages (pp: [ pp.requests ]))
+          ];
           src = self;
         };
 
