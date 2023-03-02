@@ -52,7 +52,7 @@ repos.update(all_for_org('numtide', denylist))
 print(json.dumps(
     {
         "max-concurrent-indexers" : 1,
-        "dbpath" : "/var/lib/hound/data",
+        "dbpath" : "/data",
         "repos": repos
     },
     indent=4,
