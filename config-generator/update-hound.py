@@ -5,6 +5,11 @@ import requests
 import json
 from pprint import pprint
 
+allowlist = [
+    'https://github.com/NixOS/nix.git',
+    'https://github.com/NixOS/nixos.git',
+]
+
 denylist = [
     'https://github.com/NixOS/nixos.git',
     'https://github.com/NixOS/systemd.git',
@@ -12,7 +17,26 @@ denylist = [
     'https://github.com/NixOS/nixpkgs-channels.git',
     'https://github.com/NixOS/nixops-dashboard.git',
     'https://github.com/NixOS/nixos-foundation.git',
-];
+]
+
+denynames = [
+    'nix',
+    'nixpkgs',
+]
+
+def should_index(repo):
+
+    if repo['clone_url'] in allowlist:
+        return True
+
+    if repo['clone_url'] in denylist:
+        return False
+    
+    if repo['name'] in denynames:
+        return False
+
+    return True
+
 
 def all_for_org(org, denylist):
 
@@ -37,7 +61,7 @@ def all_for_org(org, denylist):
                 }
             }
             for repo in repos
-            if repo['clone_url'] not in denylist
+            if should_index(repo)
         })
 
     return resp
