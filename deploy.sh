@@ -6,8 +6,9 @@ set -euxo pipefail
 PROJECT_NAME=search-nix
 
 nix build .#dockerImages.x86_64-linux.default
+
 # note: will write auth token to XDG_RUNTIME_DIR
-flyctl auth token | skopeo login -u x --password-stdin registry.fly.io
+(if [ ! -z "${FLY_API_TOKEN:-}" ]; then echo "$FLY_API_TOKEN"; else flyctl auth token; fi) | skopeo login -u x --password-stdin registry.fly.io
 skopeo \
     --insecure-policy \
     copy docker-archive:"$(realpath ./result)" \
