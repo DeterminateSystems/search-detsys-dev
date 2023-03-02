@@ -39,6 +39,7 @@
               ${pkgs.git}/bin/git config --global --replace-all http.sslCAinfo ${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
 
               ${pkgs.coreutils}/bin/mkdir /tmp
+              ${pkgs.coreutils}/bin/ls -la / /data /tmp
 
               ${pkgs.hound}/bin/houndd "$@"
             '')
