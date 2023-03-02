@@ -2,8 +2,440 @@
     "dbpath": "/var/lib/hound/data",
     "max-concurrent-indexers": 1,
     "repos": {
+        "DeterminateSystems-backport-action": {
+            "url": "https://github.com/DeterminateSystems/backport-action.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-bonk": {
+            "url": "https://github.com/DeterminateSystems/bonk.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-bootspec": {
+            "url": "https://github.com/DeterminateSystems/bootspec.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-bootspec-secureboot": {
+            "url": "https://github.com/DeterminateSystems/bootspec-secureboot.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-buildkite-agent-metrics": {
+            "url": "https://github.com/DeterminateSystems/buildkite-agent-metrics.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-buildkite-install-nix-macos": {
+            "url": "https://github.com/DeterminateSystems/buildkite-install-nix-macos.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-coldsnap": {
+            "url": "https://github.com/DeterminateSystems/coldsnap.git",
+            "vcs-config": {
+                "ref": "develop"
+            }
+        },
+        "DeterminateSystems-coldsnap.nix": {
+            "url": "https://github.com/DeterminateSystems/coldsnap.nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-cpio-rs": {
+            "url": "https://github.com/DeterminateSystems/cpio-rs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-cpiotools": {
+            "url": "https://github.com/DeterminateSystems/cpiotools.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-dhcpv6macd": {
+            "url": "https://github.com/DeterminateSystems/dhcpv6macd.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-elixir-nix": {
+            "url": "https://github.com/DeterminateSystems/elixir-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-gpt": {
+            "url": "https://github.com/DeterminateSystems/gpt.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-holo-nixpkgs": {
+            "url": "https://github.com/DeterminateSystems/holo-nixpkgs.git",
+            "vcs-config": {
+                "ref": "develop"
+            }
+        },
+        "DeterminateSystems-holochain-nixpkgs": {
+            "url": "https://github.com/DeterminateSystems/holochain-nixpkgs.git",
+            "vcs-config": {
+                "ref": "develop"
+            }
+        },
+        "DeterminateSystems-homebrew-riff": {
+            "url": "https://github.com/DeterminateSystems/homebrew-riff.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hp-stats-api": {
+            "url": "https://github.com/DeterminateSystems/hp-stats-api.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra": {
+            "url": "https://github.com/DeterminateSystems/hydra.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-hydra-examples": {
+            "url": "https://github.com/DeterminateSystems/hydra-examples.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra-github-jobsets-example-project": {
+            "url": "https://github.com/DeterminateSystems/hydra-github-jobsets-example-project.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra-github-jobsets-generator": {
+            "url": "https://github.com/DeterminateSystems/hydra-github-jobsets-generator.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra-hydra": {
+            "url": "https://github.com/DeterminateSystems/hydra-hydra.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra-nixos-org-configuration": {
+            "url": "https://github.com/DeterminateSystems/hydra-nixos-org-configuration.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra-runcommand-logs": {
+            "url": "https://github.com/DeterminateSystems/hydra-runcommand-logs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-hydra-test-migrate-to-s3": {
+            "url": "https://github.com/DeterminateSystems/hydra-test-migrate-to-s3.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-install-riff-action": {
+            "url": "https://github.com/DeterminateSystems/install-riff-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-karonte-nix": {
+            "url": "https://github.com/DeterminateSystems/karonte-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-linear-import-nix": {
+            "url": "https://github.com/DeterminateSystems/linear-import-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-macos-ephemeral": {
+            "url": "https://github.com/DeterminateSystems/macos-ephemeral.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-marp-nix": {
+            "url": "https://github.com/DeterminateSystems/marp-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-mkswap": {
+            "url": "https://github.com/DeterminateSystems/mkswap.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-morph": {
+            "url": "https://github.com/DeterminateSystems/morph.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-multipath-tools": {
+            "url": "https://github.com/DeterminateSystems/multipath-tools.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-net-stats-daemon": {
+            "url": "https://github.com/DeterminateSystems/net-stats-daemon.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix": {
+            "url": "https://github.com/DeterminateSystems/nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-nix-book": {
+            "url": "https://github.com/DeterminateSystems/nix-book.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-channel-monitor": {
+            "url": "https://github.com/DeterminateSystems/nix-channel-monitor.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-config-parser": {
+            "url": "https://github.com/DeterminateSystems/nix-config-parser.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-copy-deploy": {
+            "url": "https://github.com/DeterminateSystems/nix-copy-deploy.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-cpio-generator": {
+            "url": "https://github.com/DeterminateSystems/nix-cpio-generator.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-darwin": {
+            "url": "https://github.com/DeterminateSystems/nix-darwin.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-nix-github-actions": {
+            "url": "https://github.com/DeterminateSystems/nix-github-actions.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-installer": {
+            "url": "https://github.com/DeterminateSystems/nix-installer.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-installer-action": {
+            "url": "https://github.com/DeterminateSystems/nix-installer-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-installer-example": {
+            "url": "https://github.com/DeterminateSystems/nix-installer-example.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-netboot-serve": {
+            "url": "https://github.com/DeterminateSystems/nix-netboot-serve.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nix-to-kubernetes": {
+            "url": "https://github.com/DeterminateSystems/nix-to-kubernetes.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nixos-example-openstack": {
+            "url": "https://github.com/DeterminateSystems/nixos-example-openstack.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nixos-org-configurations": {
+            "url": "https://github.com/DeterminateSystems/nixos-org-configurations.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-nixos-vault-service": {
+            "url": "https://github.com/DeterminateSystems/nixos-vault-service.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-nixpkgs": {
+            "url": "https://github.com/DeterminateSystems/nixpkgs.git",
+            "vcs-config": {
+                "ref": "boot-spec-unstable"
+            }
+        },
+        "DeterminateSystems-nixpkgs-mozilla": {
+            "url": "https://github.com/DeterminateSystems/nixpkgs-mozilla.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-openssh-portable": {
+            "url": "https://github.com/DeterminateSystems/openssh-portable.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-packet-nix-builder": {
+            "url": "https://github.com/DeterminateSystems/packet-nix-builder.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-pickup.nix": {
+            "url": "https://github.com/DeterminateSystems/pickup.nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-prometheus-weather-gov": {
+            "url": "https://github.com/DeterminateSystems/prometheus-weather-gov.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-riff": {
+            "url": "https://github.com/DeterminateSystems/riff.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-sasquatch": {
+            "url": "https://github.com/DeterminateSystems/sasquatch.git",
+            "vcs-config": {
+                "ref": "4.4-upstream"
+            }
+        },
+        "DeterminateSystems-scanoss-nix": {
+            "url": "https://github.com/DeterminateSystems/scanoss-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-search-detsys-dev": {
+            "url": "https://github.com/DeterminateSystems/search-detsys-dev.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-security-tracker": {
+            "url": "https://github.com/DeterminateSystems/security-tracker.git",
+            "vcs-config": {
+                "ref": "nixos"
+            }
+        },
+        "DeterminateSystems-tempfile": {
+            "url": "https://github.com/DeterminateSystems/tempfile.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-terraform-provider-aws": {
+            "url": "https://github.com/DeterminateSystems/terraform-provider-aws.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-terraform-provider-hydra": {
+            "url": "https://github.com/DeterminateSystems/terraform-provider-hydra.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-update-flake-lock": {
+            "url": "https://github.com/DeterminateSystems/update-flake-lock.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-update-flake-lock-test-template": {
+            "url": "https://github.com/DeterminateSystems/update-flake-lock-test-template.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-vault": {
+            "url": "https://github.com/DeterminateSystems/vault.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-vault-plugin-secrets-github": {
+            "url": "https://github.com/DeterminateSystems/vault-plugin-secrets-github.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-zero-to-nix": {
+            "url": "https://github.com/DeterminateSystems/zero-to-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-zfs": {
+            "url": "https://github.com/DeterminateSystems/zfs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "DeterminateSystems-zpool-auto-expand-partitions": {
+            "url": "https://github.com/DeterminateSystems/zpool-auto-expand-partitions.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-.github": {
             "url": "https://github.com/NixOS/.github.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "NixOS-bundlers": {
+            "url": "https://github.com/NixOS/bundlers.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -14,14 +446,38 @@
                 "ref": "master"
             }
         },
+        "NixOS-calamares-nixos-extensions": {
+            "url": "https://github.com/NixOS/calamares-nixos-extensions.git",
+            "vcs-config": {
+                "ref": "calamares"
+            }
+        },
         "NixOS-darwin-stubs": {
             "url": "https://github.com/NixOS/darwin-stubs.git",
             "vcs-config": {
                 "ref": "main"
             }
         },
+        "NixOS-distribution-nixpkgs": {
+            "url": "https://github.com/NixOS/distribution-nixpkgs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "NixOS-equinix-metal-builders": {
+            "url": "https://github.com/NixOS/equinix-metal-builders.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-flake-registry": {
             "url": "https://github.com/NixOS/flake-registry.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "NixOS-hackage-db": {
+            "url": "https://github.com/NixOS/hackage-db.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -44,6 +500,18 @@
                 "ref": "master"
             }
         },
+        "NixOS-jailbreak-cabal": {
+            "url": "https://github.com/NixOS/jailbreak-cabal.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "NixOS-language-nix": {
+            "url": "https://github.com/NixOS/language-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-mobile-nixos": {
             "url": "https://github.com/NixOS/mobile-nixos.git",
             "vcs-config": {
@@ -56,6 +524,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-moderation": {
+            "url": "https://github.com/NixOS/moderation.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-mvn2nix-maven-plugin": {
             "url": "https://github.com/NixOS/mvn2nix-maven-plugin.git",
             "vcs-config": {
@@ -66,6 +540,12 @@
             "url": "https://github.com/NixOS/nix.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "NixOS-nix-book": {
+            "url": "https://github.com/NixOS/nix-book.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "NixOS-nix-eclipse": {
@@ -88,6 +568,12 @@
         },
         "NixOS-nix-pills": {
             "url": "https://github.com/NixOS/nix-pills.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "NixOS-nix.dev": {
+            "url": "https://github.com/NixOS/nix.dev.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -140,6 +626,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-nixos-metrics": {
+            "url": "https://github.com/NixOS/nixos-metrics.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-nixos-org-configurations": {
             "url": "https://github.com/NixOS/nixos-org-configurations.git",
             "vcs-config": {
@@ -160,6 +652,12 @@
         },
         "NixOS-nixos-status": {
             "url": "https://github.com/NixOS/nixos-status.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "NixOS-nixos-summer": {
+            "url": "https://github.com/NixOS/nixos-summer.git",
             "vcs-config": {
                 "ref": "main"
             }
@@ -192,6 +690,12 @@
             "url": "https://github.com/NixOS/ofborg.git",
             "vcs-config": {
                 "ref": "released"
+            }
+        },
+        "NixOS-package-list": {
+            "url": "https://github.com/NixOS/package-list.git",
+            "vcs-config": {
+                "ref": "master"
             }
         },
         "NixOS-patchelf": {
@@ -248,10 +752,1270 @@
                 "ref": "master"
             }
         },
-        "nixos-users-wiki-wiki": {
-            "url": "https://github.com/nixos-users/wiki.wiki.git",
-            "url-pattern": {
-                "base-url": "{url}/{path}"
+        "cachix-b2": {
+            "url": "https://github.com/cachix/b2.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-buildkite-example": {
+            "url": "https://github.com/cachix/buildkite-example.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-cachix": {
+            "url": "https://github.com/cachix/cachix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-cachix-action": {
+            "url": "https://github.com/cachix/cachix-action.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-cachix-ci-agents": {
+            "url": "https://github.com/cachix/cachix-ci-agents.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-cachix-deploy-amis": {
+            "url": "https://github.com/cachix/cachix-deploy-amis.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-cachix-deploy-aws": {
+            "url": "https://github.com/cachix/cachix-deploy-aws.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-cachix-deploy-flake": {
+            "url": "https://github.com/cachix/cachix-deploy-flake.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-cachix-deploy-hetzner-dedicated": {
+            "url": "https://github.com/cachix/cachix-deploy-hetzner-dedicated.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-circleci-example": {
+            "url": "https://github.com/cachix/circleci-example.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-cloudflare-haskell": {
+            "url": "https://github.com/cachix/cloudflare-haskell.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-devenv": {
+            "url": "https://github.com/cachix/devenv.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-docs.cachix.org": {
+            "url": "https://github.com/cachix/docs.cachix.org.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-elm-semantic-ui": {
+            "url": "https://github.com/cachix/elm-semantic-ui.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-elm2nix": {
+            "url": "https://github.com/cachix/elm2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-fastspring": {
+            "url": "https://github.com/cachix/fastspring.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-feedback": {
+            "url": "https://github.com/cachix/feedback.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-ghcide": {
+            "url": "https://github.com/cachix/ghcide.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-ghcide-nix": {
+            "url": "https://github.com/cachix/ghcide-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-github": {
+            "url": "https://github.com/cachix/github.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-haskell-release-action": {
+            "url": "https://github.com/cachix/haskell-release-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-install-nix-action": {
+            "url": "https://github.com/cachix/install-nix-action.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-katip-raven": {
+            "url": "https://github.com/cachix/katip-raven.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-mkdocs-rss-plugin": {
+            "url": "https://github.com/cachix/mkdocs-rss-plugin.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-nix2container": {
+            "url": "https://github.com/cachix/nix2container.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-nixpkgs": {
+            "url": "https://github.com/cachix/nixpkgs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-nixpkgs-unfree-redistributable": {
+            "url": "https://github.com/cachix/nixpkgs-unfree-redistributable.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-parse-range-header.js": {
+            "url": "https://github.com/cachix/parse-range-header.js.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-pre-commit-hooks.nix": {
+            "url": "https://github.com/cachix/pre-commit-hooks.nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-travis-ci-example": {
+            "url": "https://github.com/cachix/travis-ci-example.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-warp-systemd": {
+            "url": "https://github.com/cachix/warp-systemd.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-.github": {
+            "url": "https://github.com/nix-community/.github.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-NUR": {
+            "url": "https://github.com/nix-community/NUR.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-NixNG": {
+            "url": "https://github.com/nix-community/NixNG.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-NixOS-WSL": {
+            "url": "https://github.com/nix-community/NixOS-WSL.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-aarch64-build-box": {
+            "url": "https://github.com/nix-community/aarch64-build-box.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-acpi_call": {
+            "url": "https://github.com/nix-community/acpi_call.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-all-cabal-json": {
+            "url": "https://github.com/nix-community/all-cabal-json.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-awesome-nix": {
+            "url": "https://github.com/nix-community/awesome-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-builtwithnix.org": {
+            "url": "https://github.com/nix-community/builtwithnix.org.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-bundix": {
+            "url": "https://github.com/nix-community/bundix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-carnix": {
+            "url": "https://github.com/nix-community/carnix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-comma": {
+            "url": "https://github.com/nix-community/comma.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-cross-toolchains.nix": {
+            "url": "https://github.com/nix-community/cross-toolchains.nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-crystal2nix": {
+            "url": "https://github.com/nix-community/crystal2nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-disko": {
+            "url": "https://github.com/nix-community/disko.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-docker-nix": {
+            "url": "https://github.com/nix-community/docker-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-docker-nixpkgs": {
+            "url": "https://github.com/nix-community/docker-nixpkgs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-dream2nix": {
+            "url": "https://github.com/nix-community/dream2nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-dream2nix-auto-test": {
+            "url": "https://github.com/nix-community/dream2nix-auto-test.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-dream2nix-nodejs-auto": {
+            "url": "https://github.com/nix-community/dream2nix-nodejs-auto.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-dreampkgs": {
+            "url": "https://github.com/nix-community/dreampkgs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-eask2nix": {
+            "url": "https://github.com/nix-community/eask2nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-emacs-overlay": {
+            "url": "https://github.com/nix-community/emacs-overlay.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-emacs2nix": {
+            "url": "https://github.com/nix-community/emacs2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-ethereum.nix": {
+            "url": "https://github.com/nix-community/ethereum.nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-fenix": {
+            "url": "https://github.com/nix-community/fenix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-flake-gemini": {
+            "url": "https://github.com/nix-community/flake-gemini.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-flake-nimble": {
+            "url": "https://github.com/nix-community/flake-nimble.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-flake.nix": {
+            "url": "https://github.com/nix-community/flake.nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-gnome-session-ctl": {
+            "url": "https://github.com/nix-community/gnome-session-ctl.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-go-nix": {
+            "url": "https://github.com/nix-community/go-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-gomod2nix": {
+            "url": "https://github.com/nix-community/gomod2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-google-summer-of-code": {
+            "url": "https://github.com/nix-community/google-summer-of-code.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-govendor": {
+            "url": "https://github.com/nix-community/govendor.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-hardware-mnt-reform": {
+            "url": "https://github.com/nix-community/hardware-mnt-reform.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-harmonia": {
+            "url": "https://github.com/nix-community/harmonia.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-home-manager": {
+            "url": "https://github.com/nix-community/home-manager.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-hpe-ltfs": {
+            "url": "https://github.com/nix-community/hpe-ltfs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-hydra-check": {
+            "url": "https://github.com/nix-community/hydra-check.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-image-spec": {
+            "url": "https://github.com/nix-community/image-spec.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-impermanence": {
+            "url": "https://github.com/nix-community/impermanence.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-infra": {
+            "url": "https://github.com/nix-community/infra.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-label-approved": {
+            "url": "https://github.com/nix-community/label-approved.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-lanzaboote": {
+            "url": "https://github.com/nix-community/lanzaboote.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-ld-getby": {
+            "url": "https://github.com/nix-community/ld-getby.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-lib-aggregate": {
+            "url": "https://github.com/nix-community/lib-aggregate.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-linuxkit-nix": {
+            "url": "https://github.com/nix-community/linuxkit-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-lorri": {
+            "url": "https://github.com/nix-community/lorri.git",
+            "vcs-config": {
+                "ref": "canon"
+            }
+        },
+        "nix-community-luarocks-nix": {
+            "url": "https://github.com/nix-community/luarocks-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-mavenix": {
+            "url": "https://github.com/nix-community/mavenix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-mediawiki-matrix-bot": {
+            "url": "https://github.com/nix-community/mediawiki-matrix-bot.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-meetup-london": {
+            "url": "https://github.com/nix-community/meetup-london.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-mineflake": {
+            "url": "https://github.com/nix-community/mineflake.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-naersk": {
+            "url": "https://github.com/nix-community/naersk.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-napalm": {
+            "url": "https://github.com/nix-community/napalm.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-neovim-nightly-overlay": {
+            "url": "https://github.com/nix-community/neovim-nightly-overlay.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix": {
+            "url": "https://github.com/nix-community/nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-data-science": {
+            "url": "https://github.com/nix-community/nix-data-science.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-direnv": {
+            "url": "https://github.com/nix-community/nix-direnv.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-doom-emacs": {
+            "url": "https://github.com/nix-community/nix-doom-emacs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-environments": {
+            "url": "https://github.com/nix-community/nix-environments.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-eval-jobs": {
+            "url": "https://github.com/nix-community/nix-eval-jobs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nix-init": {
+            "url": "https://github.com/nix-community/nix-init.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nix-installers": {
+            "url": "https://github.com/nix-community/nix-installers.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-review-tools": {
+            "url": "https://github.com/nix-community/nix-review-tools.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-snippets": {
+            "url": "https://github.com/nix-community/nix-snippets.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nix-straight.el": {
+            "url": "https://github.com/nix-community/nix-straight.el.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-travis-ci": {
+            "url": "https://github.com/nix-community/nix-travis-ci.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nix-unstable-installer": {
+            "url": "https://github.com/nix-community/nix-unstable-installer.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-user-chroot": {
+            "url": "https://github.com/nix-community/nix-user-chroot.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-vscode-extensions": {
+            "url": "https://github.com/nix-community/nix-vscode-extensions.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-zsh-completions": {
+            "url": "https://github.com/nix-community/nix-zsh-completions.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixago": {
+            "url": "https://github.com/nix-community/nixago.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixago-extensions": {
+            "url": "https://github.com/nix-community/nixago-extensions.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixbox": {
+            "url": "https://github.com/nix-community/nixbox.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixdoc": {
+            "url": "https://github.com/nix-community/nixdoc.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops-datadog": {
+            "url": "https://github.com/nix-community/nixops-datadog.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops-digitalocean": {
+            "url": "https://github.com/nix-community/nixops-digitalocean.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops-encrypted-links": {
+            "url": "https://github.com/nix-community/nixops-encrypted-links.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops-gce": {
+            "url": "https://github.com/nix-community/nixops-gce.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops-libvirtd": {
+            "url": "https://github.com/nix-community/nixops-libvirtd.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops-vbox": {
+            "url": "https://github.com/nix-community/nixops-vbox.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixops_hcloud": {
+            "url": "https://github.com/nix-community/nixops_hcloud.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixos-gen-config": {
+            "url": "https://github.com/nix-community/nixos-gen-config.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixos-generators": {
+            "url": "https://github.com/nix-community/nixos-generators.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixos-images": {
+            "url": "https://github.com/nix-community/nixos-images.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nixos-install-scripts": {
+            "url": "https://github.com/nix-community/nixos-install-scripts.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixos-modules-contrib": {
+            "url": "https://github.com/nix-community/nixos-modules-contrib.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs": {
+            "url": "https://github.com/nix-community/nixpkgs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs-fmt": {
+            "url": "https://github.com/nix-community/nixpkgs-fmt.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs-lint": {
+            "url": "https://github.com/nix-community/nixpkgs-lint.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs-pytools": {
+            "url": "https://github.com/nix-community/nixpkgs-pytools.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs-swh": {
+            "url": "https://github.com/nix-community/nixpkgs-swh.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs-terraform-providers-bin": {
+            "url": "https://github.com/nix-community/nixpkgs-terraform-providers-bin.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs-wayland": {
+            "url": "https://github.com/nix-community/nixpkgs-wayland.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixpkgs.lib": {
+            "url": "https://github.com/nix-community/nixpkgs.lib.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nixt": {
+            "url": "https://github.com/nix-community/nixt.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-noogle": {
+            "url": "https://github.com/nix-community/noogle.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-npmlock2nix": {
+            "url": "https://github.com/nix-community/npmlock2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nsncd": {
+            "url": "https://github.com/nix-community/nsncd.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nur-combined": {
+            "url": "https://github.com/nix-community/nur-combined.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nur-packages-template": {
+            "url": "https://github.com/nix-community/nur-packages-template.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nur-search": {
+            "url": "https://github.com/nix-community/nur-search.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nur-update": {
+            "url": "https://github.com/nix-community/nur-update.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nurl": {
+            "url": "https://github.com/nix-community/nurl.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-patsh": {
+            "url": "https://github.com/nix-community/patsh.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-pip2nix": {
+            "url": "https://github.com/nix-community/pip2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-pipewire-to-json": {
+            "url": "https://github.com/nix-community/pipewire-to-json.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-pnpm2nix": {
+            "url": "https://github.com/nix-community/pnpm2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-poetry2nix": {
+            "url": "https://github.com/nix-community/poetry2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-pruned-racket-catalog": {
+            "url": "https://github.com/nix-community/pruned-racket-catalog.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-pynixutil": {
+            "url": "https://github.com/nix-community/pynixutil.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-pypi2nix": {
+            "url": "https://github.com/nix-community/pypi2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-pypi2nix-overrides": {
+            "url": "https://github.com/nix-community/pypi2nix-overrides.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-queued-build-hook": {
+            "url": "https://github.com/nix-community/queued-build-hook.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-redoxpkgs": {
+            "url": "https://github.com/nix-community/redoxpkgs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-review-bot": {
+            "url": "https://github.com/nix-community/review-bot.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-rfc55": {
+            "url": "https://github.com/nix-community/rfc55.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-rkwifibt": {
+            "url": "https://github.com/nix-community/rkwifibt.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-rnix-hashes": {
+            "url": "https://github.com/nix-community/rnix-hashes.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-rnix-lsp": {
+            "url": "https://github.com/nix-community/rnix-lsp.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-rnix-parser": {
+            "url": "https://github.com/nix-community/rnix-parser.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-setup.nix": {
+            "url": "https://github.com/nix-community/setup.nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-talon-nix": {
+            "url": "https://github.com/nix-community/talon-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-templates": {
+            "url": "https://github.com/nix-community/templates.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-terraform-nixos": {
+            "url": "https://github.com/nix-community/terraform-nixos.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-todomvc-nix": {
+            "url": "https://github.com/nix-community/todomvc-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-travis-build": {
+            "url": "https://github.com/nix-community/travis-build.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-trustix": {
+            "url": "https://github.com/nix-community/trustix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-vagrant-nixos-plugin": {
+            "url": "https://github.com/nix-community/vagrant-nixos-plugin.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-vgo2nix": {
+            "url": "https://github.com/nix-community/vgo2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-vscode-nix-ide": {
+            "url": "https://github.com/nix-community/vscode-nix-ide.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-wiki": {
+            "url": "https://github.com/nix-community/wiki.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-yarn2nix": {
+            "url": "https://github.com/nix-community/yarn2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "numtide-.github": {
+            "url": "https://github.com/numtide/.github.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-action-cli": {
+            "url": "https://github.com/numtide/action-cli.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-activate": {
+            "url": "https://github.com/numtide/activate.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-bld": {
+            "url": "https://github.com/numtide/bld.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-cert-wizard": {
+            "url": "https://github.com/numtide/cert-wizard.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-clean-git-action": {
+            "url": "https://github.com/numtide/clean-git-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-deploykit": {
+            "url": "https://github.com/numtide/deploykit.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-devshell": {
+            "url": "https://github.com/numtide/devshell.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-docker-host-forwarder": {
+            "url": "https://github.com/numtide/docker-host-forwarder.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-flake-utils": {
+            "url": "https://github.com/numtide/flake-utils.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-generate-terraform-provider-shim": {
+            "url": "https://github.com/numtide/generate-terraform-provider-shim.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-github-deploy": {
+            "url": "https://github.com/numtide/github-deploy.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-gradle2nix": {
+            "url": "https://github.com/numtide/gradle2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "numtide-harvest-invoice-calculator": {
+            "url": "https://github.com/numtide/harvest-invoice-calculator.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-kartusche": {
+            "url": "https://github.com/numtide/kartusche.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-kuta": {
+            "url": "https://github.com/numtide/kuta.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "numtide-mkdocs-numtide": {
+            "url": "https://github.com/numtide/mkdocs-numtide.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nar-serve": {
+            "url": "https://github.com/numtide/nar-serve.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nix-eval-cache": {
+            "url": "https://github.com/numtide/nix-eval-cache.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nix-filter": {
+            "url": "https://github.com/numtide/nix-filter.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nix-gitignore": {
+            "url": "https://github.com/numtide/nix-gitignore.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "numtide-nix-parallel-test-case": {
+            "url": "https://github.com/numtide/nix-parallel-test-case.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "numtide-nix-stdlib": {
+            "url": "https://github.com/numtide/nix-stdlib.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nixos-anywhere": {
+            "url": "https://github.com/numtide/nixos-anywhere.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nixos-anywhere-examples": {
+            "url": "https://github.com/numtide/nixos-anywhere-examples.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nixpkgs": {
+            "url": "https://github.com/numtide/nixpkgs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "numtide-nixpkgs-unfree": {
+            "url": "https://github.com/numtide/nixpkgs-unfree.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-numtide.github.io": {
+            "url": "https://github.com/numtide/numtide.github.io.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-prj-spec": {
+            "url": "https://github.com/numtide/prj-spec.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-serve-go": {
+            "url": "https://github.com/numtide/serve-go.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-software-consulting-documents": {
+            "url": "https://github.com/numtide/software-consulting-documents.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-srvos": {
+            "url": "https://github.com/numtide/srvos.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-systemd-vaultd": {
+            "url": "https://github.com/numtide/systemd-vaultd.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-deploy-nixos-flakes": {
+            "url": "https://github.com/numtide/terraform-deploy-nixos-flakes.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-kubernetes-grafana-agent": {
+            "url": "https://github.com/numtide/terraform-kubernetes-grafana-agent.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-linuxbox-monitorpack": {
+            "url": "https://github.com/numtide/terraform-linuxbox-monitorpack.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-linuxbox-traefik": {
+            "url": "https://github.com/numtide/terraform-linuxbox-traefik.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-nix-build": {
+            "url": "https://github.com/numtide/terraform-nix-build.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-nixos-amis": {
+            "url": "https://github.com/numtide/terraform-nixos-amis.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-nixos-install": {
+            "url": "https://github.com/numtide/terraform-nixos-install.git",
+            "vcs-config": {
+                "ref": "wip"
+            }
+        },
+        "numtide-terraform-provider-linuxbox": {
+            "url": "https://github.com/numtide/terraform-provider-linuxbox.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-provider-secret": {
+            "url": "https://github.com/numtide/terraform-provider-secret.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-terraform-upload-ami": {
+            "url": "https://github.com/numtide/terraform-upload-ami.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-treefmt": {
+            "url": "https://github.com/numtide/treefmt.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-treefmt-nix": {
+            "url": "https://github.com/numtide/treefmt-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-yarnlock2json": {
+            "url": "https://github.com/numtide/yarnlock2json.git",
+            "vcs-config": {
+                "ref": "master"
             }
         }
     }
