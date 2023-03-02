@@ -1,5 +1,5 @@
 {
-    "dbpath": "/var/lib/hound/data",
+    "dbpath": "/data",
     "max-concurrent-indexers": 1,
     "repos": {
         "DeterminateSystems-backport-action": {
@@ -206,12 +206,6 @@
                 "ref": "main"
             }
         },
-        "DeterminateSystems-nix": {
-            "url": "https://github.com/DeterminateSystems/nix.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "DeterminateSystems-nix-book": {
             "url": "https://github.com/DeterminateSystems/nix-book.git",
             "vcs-config": {
@@ -300,12 +294,6 @@
             "url": "https://github.com/DeterminateSystems/nixos-vault-service.git",
             "vcs-config": {
                 "ref": "main"
-            }
-        },
-        "DeterminateSystems-nixpkgs": {
-            "url": "https://github.com/DeterminateSystems/nixpkgs.git",
-            "vcs-config": {
-                "ref": "boot-spec-unstable"
             }
         },
         "DeterminateSystems-nixpkgs-mozilla": {
@@ -596,6 +584,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-nixos": {
+            "url": "https://github.com/NixOS/nixos.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-nixos-artwork": {
             "url": "https://github.com/NixOS/nixos-artwork.git",
             "vcs-config": {
@@ -670,12 +664,6 @@
         },
         "NixOS-nixpart": {
             "url": "https://github.com/NixOS/nixpart.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
-        "NixOS-nixpkgs": {
-            "url": "https://github.com/NixOS/nixpkgs.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -898,12 +886,6 @@
         },
         "cachix-nix2container": {
             "url": "https://github.com/cachix/nix2container.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
-        "cachix-nixpkgs": {
-            "url": "https://github.com/cachix/nixpkgs.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -1274,12 +1256,6 @@
                 "ref": "master"
             }
         },
-        "nix-community-nix": {
-            "url": "https://github.com/nix-community/nix.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "nix-community-nix-data-science": {
             "url": "https://github.com/nix-community/nix-data-science.git",
             "vcs-config": {
@@ -1462,12 +1438,6 @@
         },
         "nix-community-nixos-modules-contrib": {
             "url": "https://github.com/nix-community/nixos-modules-contrib.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
-        "nix-community-nixpkgs": {
-            "url": "https://github.com/nix-community/nixpkgs.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -1890,12 +1860,6 @@
             "url": "https://github.com/numtide/nixos-anywhere-examples.git",
             "vcs-config": {
                 "ref": "main"
-            }
-        },
-        "numtide-nixpkgs": {
-            "url": "https://github.com/numtide/nixpkgs.git",
-            "vcs-config": {
-                "ref": "master"
             }
         },
         "numtide-nixpkgs-unfree": {
