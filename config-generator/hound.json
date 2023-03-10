@@ -740,6 +740,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-whats-new-in-nix": {
+            "url": "https://github.com/NixOS/whats-new-in-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-b2": {
             "url": "https://github.com/cachix/b2.git",
             "vcs-config": {
@@ -1690,6 +1696,12 @@
         },
         "nix-community-vgo2nix": {
             "url": "https://github.com/nix-community/vgo2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-vs-overlay": {
+            "url": "https://github.com/nix-community/vs-overlay.git",
             "vcs-config": {
                 "ref": "master"
             }
