@@ -464,6 +464,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-foundation": {
+            "url": "https://github.com/NixOS/foundation.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-hackage-db": {
             "url": "https://github.com/NixOS/hackage-db.git",
             "vcs-config": {
@@ -1678,6 +1684,12 @@
         },
         "nix-community-travis-build": {
             "url": "https://github.com/nix-community/travis-build.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-tree-sitter-nix": {
+            "url": "https://github.com/nix-community/tree-sitter-nix.git",
             "vcs-config": {
                 "ref": "master"
             }
