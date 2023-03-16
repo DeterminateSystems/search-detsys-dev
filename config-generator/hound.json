@@ -302,6 +302,12 @@
                 "ref": "master"
             }
         },
+        "DeterminateSystems-nuenv": {
+            "url": "https://github.com/DeterminateSystems/nuenv.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-openssh-portable": {
             "url": "https://github.com/DeterminateSystems/openssh-portable.git",
             "vcs-config": {
@@ -420,6 +426,12 @@
             "url": "https://github.com/NixOS/.github.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "NixOS-20th-nix": {
+            "url": "https://github.com/NixOS/20th-nix.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "NixOS-bundlers": {
