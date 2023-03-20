@@ -596,12 +596,6 @@
                 "ref": "master"
             }
         },
-        "NixOS-nixos": {
-            "url": "https://github.com/NixOS/nixos.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "NixOS-nixos-artwork": {
             "url": "https://github.com/NixOS/nixos-artwork.git",
             "vcs-config": {
@@ -676,6 +670,12 @@
         },
         "NixOS-nixpart": {
             "url": "https://github.com/NixOS/nixpart.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "NixOS-nixpkgs": {
+            "url": "https://github.com/NixOS/nixpkgs.git",
             "vcs-config": {
                 "ref": "master"
             }
