@@ -7,7 +7,7 @@ from pprint import pprint
 
 allowlist = [
     'https://github.com/NixOS/nix.git',
-    'https://github.com/NixOS/nixos.git',
+    'https://github.com/NixOS/nixpkgs.git',
 ]
 
 denylist = [
