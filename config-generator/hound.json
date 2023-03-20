@@ -476,12 +476,6 @@
                 "ref": "master"
             }
         },
-        "NixOS-foundation": {
-            "url": "https://github.com/NixOS/foundation.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "NixOS-hackage-db": {
             "url": "https://github.com/NixOS/hackage-db.git",
             "vcs-config": {
