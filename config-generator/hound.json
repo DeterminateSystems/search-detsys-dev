@@ -476,6 +476,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-foundation": {
+            "url": "https://github.com/NixOS/foundation.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-hackage-db": {
             "url": "https://github.com/NixOS/hackage-db.git",
             "vcs-config": {
@@ -820,6 +826,12 @@
         },
         "cachix-cloudflare-haskell": {
             "url": "https://github.com/cachix/cloudflare-haskell.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-customerio-client": {
+            "url": "https://github.com/cachix/customerio-client.git",
             "vcs-config": {
                 "ref": "master"
             }
