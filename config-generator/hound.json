@@ -278,6 +278,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-nix-wasm-example": {
+            "url": "https://github.com/DeterminateSystems/nix-wasm-example.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-nixos-example-openstack": {
             "url": "https://github.com/DeterminateSystems/nixos-example-openstack.git",
             "vcs-config": {
