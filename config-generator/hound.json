@@ -1946,6 +1946,12 @@
                 "ref": "main"
             }
         },
+        "numtide-system-manager": {
+            "url": "https://github.com/numtide/system-manager.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "numtide-systemd-vaultd": {
             "url": "https://github.com/numtide/systemd-vaultd.git",
             "vcs-config": {
