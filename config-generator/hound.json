@@ -722,6 +722,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-reproducible.nixos.org": {
+            "url": "https://github.com/NixOS/reproducible.nixos.org.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-rfc-steering-committee": {
             "url": "https://github.com/NixOS/rfc-steering-committee.git",
             "vcs-config": {
