@@ -80,26 +80,8 @@
                 "ref": "master"
             }
         },
-        "DeterminateSystems-holo-nixpkgs": {
-            "url": "https://github.com/DeterminateSystems/holo-nixpkgs.git",
-            "vcs-config": {
-                "ref": "develop"
-            }
-        },
-        "DeterminateSystems-holochain-nixpkgs": {
-            "url": "https://github.com/DeterminateSystems/holochain-nixpkgs.git",
-            "vcs-config": {
-                "ref": "develop"
-            }
-        },
         "DeterminateSystems-homebrew-riff": {
             "url": "https://github.com/DeterminateSystems/homebrew-riff.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
-        "DeterminateSystems-hp-stats-api": {
-            "url": "https://github.com/DeterminateSystems/hp-stats-api.git",
             "vcs-config": {
                 "ref": "main"
             }
