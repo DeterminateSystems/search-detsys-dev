@@ -254,6 +254,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-nix-policy": {
+            "url": "https://github.com/DeterminateSystems/nix-policy.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-nix-to-kubernetes": {
             "url": "https://github.com/DeterminateSystems/nix-to-kubernetes.git",
             "vcs-config": {
@@ -1100,6 +1106,12 @@
                 "ref": "main"
             }
         },
+        "nix-community-flake-compat": {
+            "url": "https://github.com/nix-community/flake-compat.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-flake-gemini": {
             "url": "https://github.com/nix-community/flake-gemini.git",
             "vcs-config": {
@@ -1158,6 +1170,12 @@
             "url": "https://github.com/nix-community/harmonia.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "nix-community-haumea": {
+            "url": "https://github.com/nix-community/haumea.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "nix-community-home-manager": {
