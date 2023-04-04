@@ -128,6 +128,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-hydra-scale-equinix-metal": {
+            "url": "https://github.com/DeterminateSystems/hydra-scale-equinix-metal.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-hydra-test-migrate-to-s3": {
             "url": "https://github.com/DeterminateSystems/hydra-test-migrate-to-s3.git",
             "vcs-config": {
@@ -1890,6 +1896,12 @@
             "url": "https://github.com/numtide/nix-gitignore.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "numtide-nix-gl-host": {
+            "url": "https://github.com/numtide/nix-gl-host.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "numtide-nix-parallel-test-case": {
