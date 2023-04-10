@@ -1298,6 +1298,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-namaka": {
+            "url": "https://github.com/nix-community/namaka.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-napalm": {
             "url": "https://github.com/nix-community/napalm.git",
             "vcs-config": {
