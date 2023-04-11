@@ -950,6 +950,12 @@
                 "ref": "master"
             }
         },
+        "cachix-servant-elm": {
+            "url": "https://github.com/cachix/servant-elm.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "cachix-travis-ci-example": {
             "url": "https://github.com/cachix/travis-ci-example.git",
             "vcs-config": {
