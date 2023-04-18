@@ -938,6 +938,12 @@
                 "ref": "main"
             }
         },
+        "cachix-paddle": {
+            "url": "https://github.com/cachix/paddle.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "cachix-parse-range-header.js": {
             "url": "https://github.com/cachix/parse-range-header.js.git",
             "vcs-config": {
@@ -1048,6 +1054,12 @@
         },
         "nix-community-crystal2nix": {
             "url": "https://github.com/nix-community/crystal2nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-developer-workshop": {
+            "url": "https://github.com/nix-community/developer-workshop.git",
             "vcs-config": {
                 "ref": "main"
             }
