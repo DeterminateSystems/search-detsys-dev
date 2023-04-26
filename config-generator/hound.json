@@ -1376,6 +1376,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nix-melt": {
+            "url": "https://github.com/nix-community/nix-melt.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-nix-review-tools": {
             "url": "https://github.com/nix-community/nix-review-tools.git",
             "vcs-config": {
