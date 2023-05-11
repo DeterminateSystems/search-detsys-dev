@@ -476,6 +476,12 @@
                 "ref": "main"
             }
         },
+        "NixOS-experimental-nix-installer": {
+            "url": "https://github.com/NixOS/experimental-nix-installer.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-flake-registry": {
             "url": "https://github.com/NixOS/flake-registry.git",
             "vcs-config": {
