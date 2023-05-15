@@ -1742,6 +1742,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-steam-fetcher": {
+            "url": "https://github.com/nix-community/steam-fetcher.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-talon-nix": {
             "url": "https://github.com/nix-community/talon-nix.git",
             "vcs-config": {
