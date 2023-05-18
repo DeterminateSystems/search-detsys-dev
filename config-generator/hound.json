@@ -182,6 +182,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-mlnx-workspace": {
+            "url": "https://github.com/DeterminateSystems/mlnx-workspace.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-morph": {
             "url": "https://github.com/DeterminateSystems/morph.git",
             "vcs-config": {
