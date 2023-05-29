@@ -80,6 +80,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-flake-checker": {
+            "url": "https://github.com/DeterminateSystems/flake-checker.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-gpt": {
             "url": "https://github.com/DeterminateSystems/gpt.git",
             "vcs-config": {
