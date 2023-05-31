@@ -950,6 +950,12 @@
                 "ref": "master"
             }
         },
+        "cachix-nixpkgs-python": {
+            "url": "https://github.com/cachix/nixpkgs-python.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-nixpkgs-unfree-redistributable": {
             "url": "https://github.com/cachix/nixpkgs-unfree-redistributable.git",
             "vcs-config": {
@@ -1464,6 +1470,12 @@
             "url": "https://github.com/nix-community/nixbox.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "nix-community-nixd": {
+            "url": "https://github.com/nix-community/nixd.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "nix-community-nixdoc": {
