@@ -1838,6 +1838,12 @@
                 "ref": "main"
             }
         },
+        "nix-community-vulnix": {
+            "url": "https://github.com/nix-community/vulnix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-wiki": {
             "url": "https://github.com/nix-community/wiki.git",
             "vcs-config": {
