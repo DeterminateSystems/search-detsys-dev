@@ -86,6 +86,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-flake-checker-action": {
+            "url": "https://github.com/DeterminateSystems/flake-checker-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-gpt": {
             "url": "https://github.com/DeterminateSystems/gpt.git",
             "vcs-config": {
@@ -1386,6 +1392,12 @@
             "url": "https://github.com/nix-community/nix-eval-jobs.git",
             "vcs-config": {
                 "ref": "main"
+            }
+        },
+        "nix-community-nix-index": {
+            "url": "https://github.com/nix-community/nix-index.git",
+            "vcs-config": {
+                "ref": "master"
             }
         },
         "nix-community-nix-init": {
