@@ -1976,6 +1976,12 @@
                 "ref": "main"
             }
         },
+        "numtide-nits": {
+            "url": "https://github.com/numtide/nits.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "numtide-nix-eval-cache": {
             "url": "https://github.com/numtide/nix-eval-cache.git",
             "vcs-config": {
