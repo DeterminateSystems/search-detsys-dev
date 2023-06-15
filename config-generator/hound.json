@@ -1400,6 +1400,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nix-index-database": {
+            "url": "https://github.com/nix-community/nix-index-database.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-nix-init": {
             "url": "https://github.com/nix-community/nix-init.git",
             "vcs-config": {
