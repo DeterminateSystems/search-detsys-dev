@@ -176,6 +176,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-linux": {
+            "url": "https://github.com/DeterminateSystems/linux.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "DeterminateSystems-macos-ephemeral": {
             "url": "https://github.com/DeterminateSystems/macos-ephemeral.git",
             "vcs-config": {
