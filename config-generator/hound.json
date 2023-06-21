@@ -1424,6 +1424,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nix-ld-rs": {
+            "url": "https://github.com/nix-community/nix-ld-rs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-nix-melt": {
             "url": "https://github.com/nix-community/nix-melt.git",
             "vcs-config": {
