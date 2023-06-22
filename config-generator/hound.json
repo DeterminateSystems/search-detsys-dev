@@ -950,6 +950,12 @@
                 "ref": "master"
             }
         },
+        "cachix-mixpanel-client": {
+            "url": "https://github.com/cachix/mixpanel-client.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "cachix-mkdocs-rss-plugin": {
             "url": "https://github.com/cachix/mkdocs-rss-plugin.git",
             "vcs-config": {
