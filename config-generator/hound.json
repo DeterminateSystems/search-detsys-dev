@@ -2042,6 +2042,12 @@
                 "ref": "main"
             }
         },
+        "numtide-nixionary.org": {
+            "url": "https://github.com/numtide/nixionary.org.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "numtide-nixos-anywhere": {
             "url": "https://github.com/numtide/nixos-anywhere.git",
             "vcs-config": {
