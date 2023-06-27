@@ -188,6 +188,18 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-magic-nix-cache": {
+            "url": "https://github.com/DeterminateSystems/magic-nix-cache.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-magic-nix-cache-action": {
+            "url": "https://github.com/DeterminateSystems/magic-nix-cache-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-marp-nix": {
             "url": "https://github.com/DeterminateSystems/marp-nix.git",
             "vcs-config": {
