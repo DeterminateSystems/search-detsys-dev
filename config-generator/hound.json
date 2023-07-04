@@ -2084,6 +2084,12 @@
                 "ref": "main"
             }
         },
+        "numtide-numtide-github-runner": {
+            "url": "https://github.com/numtide/numtide-github-runner.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "numtide-numtide.github.io": {
             "url": "https://github.com/numtide/numtide.github.io.git",
             "vcs-config": {
