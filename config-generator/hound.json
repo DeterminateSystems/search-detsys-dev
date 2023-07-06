@@ -1016,6 +1016,12 @@
                 "ref": "master"
             }
         },
+        "cachix-stamina.hs": {
+            "url": "https://github.com/cachix/stamina.hs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-travis-ci-example": {
             "url": "https://github.com/cachix/travis-ci-example.git",
             "vcs-config": {
