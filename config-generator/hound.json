@@ -1424,6 +1424,12 @@
                 "ref": "main"
             }
         },
+        "nix-community-nix-github-actions": {
+            "url": "https://github.com/nix-community/nix-github-actions.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-nix-index": {
             "url": "https://github.com/nix-community/nix-index.git",
             "vcs-config": {
