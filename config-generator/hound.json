@@ -842,6 +842,12 @@
                 "ref": "master"
             }
         },
+        "cachix-cachix-bug-repro": {
+            "url": "https://github.com/cachix/cachix-bug-repro.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "cachix-cachix-ci-agents": {
             "url": "https://github.com/cachix/cachix-ci-agents.git",
             "vcs-config": {
