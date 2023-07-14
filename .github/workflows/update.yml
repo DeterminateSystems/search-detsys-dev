@@ -13,7 +13,8 @@ jobs:
       with:
         persist-credentials: false
         fetch-depth: 0
-    - uses: DeterminateSystems/nix-installer-action@v1
+    - uses: DeterminateSystems/nix-installer-action@main
+    - uses: DeterminateSystems/magic-nix-cache-action@main
     - name: Update
       run: ./update.sh
     - name: Commit & Push changes
