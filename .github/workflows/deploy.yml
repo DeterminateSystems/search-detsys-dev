@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: DeterminateSystems/nix-installer-action@v1
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
       - run: ./deploy.sh
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
