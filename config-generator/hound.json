@@ -1676,6 +1676,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nixvim": {
+            "url": "https://github.com/nix-community/nixvim.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-noogle": {
             "url": "https://github.com/nix-community/noogle.git",
             "vcs-config": {
