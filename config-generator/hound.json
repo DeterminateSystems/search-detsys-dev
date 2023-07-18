@@ -1100,6 +1100,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-cache-nix-action": {
+            "url": "https://github.com/nix-community/cache-nix-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-carnix": {
             "url": "https://github.com/nix-community/carnix.git",
             "vcs-config": {
