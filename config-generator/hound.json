@@ -92,6 +92,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-github-actions-oidc-claims": {
+            "url": "https://github.com/DeterminateSystems/github-actions-oidc-claims.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-gpt": {
             "url": "https://github.com/DeterminateSystems/gpt.git",
             "vcs-config": {
