@@ -899,7 +899,7 @@
         "cachix-customerio-client": {
             "url": "https://github.com/cachix/customerio-client.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "cachix"
             }
         },
         "cachix-devenv": {
