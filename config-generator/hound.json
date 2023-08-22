@@ -890,6 +890,12 @@
                 "ref": "master"
             }
         },
+        "cachix-clickhouse-haskell": {
+            "url": "https://github.com/cachix/clickhouse-haskell.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-cloudflare-haskell": {
             "url": "https://github.com/cachix/cloudflare-haskell.git",
             "vcs-config": {
