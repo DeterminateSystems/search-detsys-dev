@@ -92,6 +92,18 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-flakehub-mirror": {
+            "url": "https://github.com/DeterminateSystems/flakehub-mirror.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-flakehub-push": {
+            "url": "https://github.com/DeterminateSystems/flakehub-push.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-github-actions-oidc-claims": {
             "url": "https://github.com/DeterminateSystems/github-actions-oidc-claims.git",
             "vcs-config": {
@@ -408,6 +420,12 @@
             "url": "https://github.com/DeterminateSystems/security-tracker.git",
             "vcs-config": {
                 "ref": "nixos"
+            }
+        },
+        "DeterminateSystems-tar-rs": {
+            "url": "https://github.com/DeterminateSystems/tar-rs.git",
+            "vcs-config": {
+                "ref": "master"
             }
         },
         "DeterminateSystems-tempfile": {
