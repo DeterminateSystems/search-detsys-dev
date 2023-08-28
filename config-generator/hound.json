@@ -338,12 +338,6 @@
                 "ref": "main"
             }
         },
-        "DeterminateSystems-nix.dev": {
-            "url": "https://github.com/DeterminateSystems/nix.dev.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "DeterminateSystems-nixos-example-openstack": {
             "url": "https://github.com/DeterminateSystems/nixos-example-openstack.git",
             "vcs-config": {
@@ -1240,6 +1234,12 @@
         },
         "nix-community-fenix": {
             "url": "https://github.com/nix-community/fenix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-first-time-contribution-tagger": {
+            "url": "https://github.com/nix-community/first-time-contribution-tagger.git",
             "vcs-config": {
                 "ref": "main"
             }
