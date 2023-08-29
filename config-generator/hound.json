@@ -902,6 +902,12 @@
                 "ref": "main"
             }
         },
+        "cachix-cachix-deploy-terraform": {
+            "url": "https://github.com/cachix/cachix-deploy-terraform.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-circleci-example": {
             "url": "https://github.com/cachix/circleci-example.git",
             "vcs-config": {
