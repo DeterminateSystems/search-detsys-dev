@@ -2,6 +2,12 @@
     "dbpath": "/data",
     "max-concurrent-indexers": 1,
     "repos": {
+        "DeterminateSystems-.github": {
+            "url": "https://github.com/DeterminateSystems/.github.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-asset-tagger": {
             "url": "https://github.com/DeterminateSystems/asset-tagger.git",
             "vcs-config": {
