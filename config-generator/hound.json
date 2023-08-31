@@ -98,6 +98,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-flake-schemas": {
+            "url": "https://github.com/DeterminateSystems/flake-schemas.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-flakehub-mirror": {
             "url": "https://github.com/DeterminateSystems/flakehub-mirror.git",
             "vcs-config": {
