@@ -8,6 +8,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-2023.nixcon.org": {
+            "url": "https://github.com/DeterminateSystems/2023.nixcon.org.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-asset-tagger": {
             "url": "https://github.com/DeterminateSystems/asset-tagger.git",
             "vcs-config": {
