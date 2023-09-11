@@ -1178,6 +1178,18 @@
                 "ref": "master"
             }
         },
+        "nix-community-composer-local-repo-plugin": {
+            "url": "https://github.com/nix-community/composer-local-repo-plugin.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-crate2nix": {
+            "url": "https://github.com/nix-community/crate2nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-cross-toolchains.nix": {
             "url": "https://github.com/nix-community/cross-toolchains.nix.git",
             "vcs-config": {
@@ -1906,6 +1918,12 @@
         },
         "nix-community-rnix-parser": {
             "url": "https://github.com/nix-community/rnix-parser.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-robotnix": {
+            "url": "https://github.com/nix-community/robotnix.git",
             "vcs-config": {
                 "ref": "master"
             }
