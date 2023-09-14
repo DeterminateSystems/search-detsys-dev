@@ -1556,6 +1556,18 @@
                 "ref": "main"
             }
         },
+        "nix-community-nix-on-droid": {
+            "url": "https://github.com/nix-community/nix-on-droid.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix-on-droid-app": {
+            "url": "https://github.com/nix-community/nix-on-droid-app.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-nix-review-tools": {
             "url": "https://github.com/nix-community/nix-review-tools.git",
             "vcs-config": {
