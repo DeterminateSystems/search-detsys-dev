@@ -617,7 +617,7 @@
         "NixOS-mobile-nixos": {
             "url": "https://github.com/NixOS/mobile-nixos.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "development"
             }
         },
         "NixOS-mobile-nixos-website": {
@@ -1612,6 +1612,12 @@
         },
         "nix-community-nix-zsh-completions": {
             "url": "https://github.com/nix-community/nix-zsh-completions.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-nix4vscode": {
+            "url": "https://github.com/nix-community/nix4vscode.git",
             "vcs-config": {
                 "ref": "master"
             }
