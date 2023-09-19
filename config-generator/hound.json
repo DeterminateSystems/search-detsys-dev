@@ -1694,6 +1694,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nixos-anywhere": {
+            "url": "https://github.com/nix-community/nixos-anywhere.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-nixos-gen-config": {
             "url": "https://github.com/nix-community/nixos-gen-config.git",
             "vcs-config": {
@@ -2200,12 +2206,6 @@
         },
         "numtide-nixionary.org": {
             "url": "https://github.com/numtide/nixionary.org.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
-        "numtide-nixos-anywhere": {
-            "url": "https://github.com/numtide/nixos-anywhere.git",
             "vcs-config": {
                 "ref": "main"
             }
