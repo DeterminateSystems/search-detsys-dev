@@ -1292,6 +1292,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-flake-firefox-nightly": {
+            "url": "https://github.com/nix-community/flake-firefox-nightly.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-flake-gemini": {
             "url": "https://github.com/nix-community/flake-gemini.git",
             "vcs-config": {
