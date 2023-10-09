@@ -2156,6 +2156,12 @@
                 "ref": "master"
             }
         },
+        "numtide-linux-lkl": {
+            "url": "https://github.com/numtide/linux-lkl.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "numtide-mkdocs-numtide": {
             "url": "https://github.com/numtide/mkdocs-numtide.git",
             "vcs-config": {
@@ -2212,6 +2218,12 @@
         },
         "numtide-nixionary.org": {
             "url": "https://github.com/numtide/nixionary.org.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nixmodules": {
+            "url": "https://github.com/numtide/nixmodules.git",
             "vcs-config": {
                 "ref": "main"
             }
