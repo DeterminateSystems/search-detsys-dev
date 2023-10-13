@@ -1628,6 +1628,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nixGL": {
+            "url": "https://github.com/nix-community/nixGL.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-nixago": {
             "url": "https://github.com/nix-community/nixago.git",
             "vcs-config": {
