@@ -782,6 +782,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-nixpkgs-merge-bot": {
+            "url": "https://github.com/NixOS/nixpkgs-merge-bot.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-npm2nix": {
             "url": "https://github.com/NixOS/npm2nix.git",
             "vcs-config": {
