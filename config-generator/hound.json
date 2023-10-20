@@ -98,6 +98,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-fh-init-example-project": {
+            "url": "https://github.com/DeterminateSystems/fh-init-example-project.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-flake-checker": {
             "url": "https://github.com/DeterminateSystems/flake-checker.git",
             "vcs-config": {
