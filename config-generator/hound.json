@@ -452,6 +452,12 @@
                 "ref": "nixos"
             }
         },
+        "DeterminateSystems-tailscale": {
+            "url": "https://github.com/DeterminateSystems/tailscale.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-tar-rs": {
             "url": "https://github.com/DeterminateSystems/tar-rs.git",
             "vcs-config": {
@@ -1922,6 +1928,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-pyproject.nix": {
+            "url": "https://github.com/nix-community/pyproject.nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-queued-build-hook": {
             "url": "https://github.com/nix-community/queued-build-hook.git",
             "vcs-config": {
@@ -2098,6 +2110,12 @@
         },
         "numtide-bld": {
             "url": "https://github.com/numtide/bld.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-build-go-cache": {
+            "url": "https://github.com/numtide/build-go-cache.git",
             "vcs-config": {
                 "ref": "main"
             }
