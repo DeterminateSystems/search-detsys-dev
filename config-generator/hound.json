@@ -1220,6 +1220,12 @@
                 "ref": "main"
             }
         },
+        "nix-community-darwin-build-box": {
+            "url": "https://github.com/nix-community/darwin-build-box.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-developer-workshop": {
             "url": "https://github.com/nix-community/developer-workshop.git",
             "vcs-config": {
