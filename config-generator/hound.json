@@ -1160,6 +1160,12 @@
                 "ref": "main"
             }
         },
+        "nix-community-authentik-nix": {
+            "url": "https://github.com/nix-community/authentik-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-awesome-nix": {
             "url": "https://github.com/nix-community/awesome-nix.git",
             "vcs-config": {
@@ -1248,6 +1254,12 @@
             "url": "https://github.com/nix-community/docker-nixpkgs.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "nix-community-docnix": {
+            "url": "https://github.com/nix-community/docnix.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "nix-community-dream2nix": {
@@ -1618,6 +1630,12 @@
         },
         "nix-community-nix-travis-ci": {
             "url": "https://github.com/nix-community/nix-travis-ci.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nix-unit": {
+            "url": "https://github.com/nix-community/nix-unit.git",
             "vcs-config": {
                 "ref": "main"
             }
