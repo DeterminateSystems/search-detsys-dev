@@ -2018,6 +2018,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-srvos": {
+            "url": "https://github.com/nix-community/srvos.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-steam-fetcher": {
             "url": "https://github.com/nix-community/steam-fetcher.git",
             "vcs-config": {
@@ -2326,12 +2332,6 @@
         },
         "numtide-software-consulting-documents": {
             "url": "https://github.com/numtide/software-consulting-documents.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
-        "numtide-srvos": {
-            "url": "https://github.com/numtide/srvos.git",
             "vcs-config": {
                 "ref": "main"
             }
