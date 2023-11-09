@@ -1244,6 +1244,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-disko-templates": {
+            "url": "https://github.com/nix-community/disko-templates.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-docker-nix": {
             "url": "https://github.com/nix-community/docker-nix.git",
             "vcs-config": {
