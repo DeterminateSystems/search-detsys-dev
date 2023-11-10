@@ -122,6 +122,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-flakehub-docs": {
+            "url": "https://github.com/DeterminateSystems/flakehub-docs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-flakehub-mirror": {
             "url": "https://github.com/DeterminateSystems/flakehub-mirror.git",
             "vcs-config": {
