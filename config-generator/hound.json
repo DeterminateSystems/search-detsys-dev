@@ -20,6 +20,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-attic": {
+            "url": "https://github.com/DeterminateSystems/attic.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-backport-action": {
             "url": "https://github.com/DeterminateSystems/backport-action.git",
             "vcs-config": {
@@ -540,6 +546,12 @@
             "url": "https://github.com/NixOS/20th-nix.git",
             "vcs-config": {
                 "ref": "main"
+            }
+        },
+        "NixOS-aarch64-build-box": {
+            "url": "https://github.com/NixOS/aarch64-build-box.git",
+            "vcs-config": {
+                "ref": "master"
             }
         },
         "NixOS-bundlers": {
@@ -1146,12 +1158,6 @@
             "url": "https://github.com/nix-community/NixOS-WSL.git",
             "vcs-config": {
                 "ref": "main"
-            }
-        },
-        "nix-community-aarch64-build-box": {
-            "url": "https://github.com/nix-community/aarch64-build-box.git",
-            "vcs-config": {
-                "ref": "master"
             }
         },
         "nix-community-acpi_call": {
