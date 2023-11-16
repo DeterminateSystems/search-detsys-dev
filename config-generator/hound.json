@@ -224,6 +224,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-ipxe-boot-lab": {
+            "url": "https://github.com/DeterminateSystems/ipxe-boot-lab.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-karonte-nix": {
             "url": "https://github.com/DeterminateSystems/karonte-nix.git",
             "vcs-config": {
@@ -430,6 +436,12 @@
         },
         "DeterminateSystems-prometheus-weather-gov": {
             "url": "https://github.com/DeterminateSystems/prometheus-weather-gov.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-push-artifact-ids": {
+            "url": "https://github.com/DeterminateSystems/push-artifact-ids.git",
             "vcs-config": {
                 "ref": "main"
             }
