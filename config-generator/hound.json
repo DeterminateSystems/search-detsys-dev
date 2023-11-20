@@ -452,6 +452,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-rust-libzfs": {
+            "url": "https://github.com/DeterminateSystems/rust-libzfs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "DeterminateSystems-sasquatch": {
             "url": "https://github.com/DeterminateSystems/sasquatch.git",
             "vcs-config": {
