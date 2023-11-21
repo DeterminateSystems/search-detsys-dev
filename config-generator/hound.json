@@ -470,6 +470,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-sdk-core": {
+            "url": "https://github.com/DeterminateSystems/sdk-core.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "DeterminateSystems-search-detsys-dev": {
             "url": "https://github.com/DeterminateSystems/search-detsys-dev.git",
             "vcs-config": {
