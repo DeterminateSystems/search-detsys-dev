@@ -908,6 +908,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-teams-collaboration": {
+            "url": "https://github.com/NixOS/teams-collaboration.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-templates": {
             "url": "https://github.com/NixOS/templates.git",
             "vcs-config": {
@@ -1470,6 +1476,12 @@
             "url": "https://github.com/nix-community/infra.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "nix-community-kde2nix": {
+            "url": "https://github.com/nix-community/kde2nix.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "nix-community-label-approved": {
