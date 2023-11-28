@@ -98,6 +98,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-export": {
+            "url": "https://github.com/DeterminateSystems/export.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-fh": {
             "url": "https://github.com/DeterminateSystems/fh.git",
             "vcs-config": {
