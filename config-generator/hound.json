@@ -386,6 +386,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-nix-upgrade": {
+            "url": "https://github.com/DeterminateSystems/nix-upgrade.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "DeterminateSystems-nix-wasm-example": {
             "url": "https://github.com/DeterminateSystems/nix-wasm-example.git",
             "vcs-config": {
