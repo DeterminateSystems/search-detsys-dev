@@ -8,12 +8,6 @@
                 "ref": "main"
             }
         },
-        "DeterminateSystems-asset-tagger": {
-            "url": "https://github.com/DeterminateSystems/asset-tagger.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
         "DeterminateSystems-attic": {
             "url": "https://github.com/DeterminateSystems/attic.git",
             "vcs-config": {
@@ -64,6 +58,12 @@
         },
         "DeterminateSystems-dhcpv6macd": {
             "url": "https://github.com/DeterminateSystems/dhcpv6macd.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "DeterminateSystems-elastic-ci-stack-for-aws": {
+            "url": "https://github.com/DeterminateSystems/elastic-ci-stack-for-aws.git",
             "vcs-config": {
                 "ref": "main"
             }
@@ -214,12 +214,6 @@
         },
         "DeterminateSystems-karonte-nix": {
             "url": "https://github.com/DeterminateSystems/karonte-nix.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
-        "DeterminateSystems-linear-import-nix": {
-            "url": "https://github.com/DeterminateSystems/linear-import-nix.git",
             "vcs-config": {
                 "ref": "main"
             }
@@ -467,7 +461,7 @@
         "DeterminateSystems-tar-rs": {
             "url": "https://github.com/DeterminateSystems/tar-rs.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "force-mtime"
             }
         },
         "DeterminateSystems-tempfile": {
@@ -506,12 +500,6 @@
                 "ref": "main"
             }
         },
-        "DeterminateSystems-vault-plugin-secrets-github": {
-            "url": "https://github.com/DeterminateSystems/vault-plugin-secrets-github.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "DeterminateSystems-zero-to-nix": {
             "url": "https://github.com/DeterminateSystems/zero-to-nix.git",
             "vcs-config": {
@@ -546,6 +534,12 @@
             "url": "https://github.com/NixOS/aarch64-build-box.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "NixOS-amis": {
+            "url": "https://github.com/NixOS/amis.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "NixOS-bundlers": {
@@ -586,6 +580,12 @@
         },
         "NixOS-experimental-nix-installer": {
             "url": "https://github.com/NixOS/experimental-nix-installer.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "NixOS-first-time-contribution-tagger": {
+            "url": "https://github.com/NixOS/first-time-contribution-tagger.git",
             "vcs-config": {
                 "ref": "main"
             }
@@ -1028,6 +1028,12 @@
                 "ref": "master"
             }
         },
+        "cachix-fnmatch": {
+            "url": "https://github.com/cachix/fnmatch.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-ghcide": {
             "url": "https://github.com/cachix/ghcide.git",
             "vcs-config": {
@@ -1042,6 +1048,12 @@
         },
         "cachix-github": {
             "url": "https://github.com/cachix/github.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-haskell-ascii-progress": {
+            "url": "https://github.com/cachix/haskell-ascii-progress.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -1130,8 +1142,20 @@
                 "ref": "master"
             }
         },
+        "cachix-typed-websockets": {
+            "url": "https://github.com/cachix/typed-websockets.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-warp-systemd": {
             "url": "https://github.com/cachix/warp-systemd.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "cachix-websockets": {
+            "url": "https://github.com/cachix/websockets.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -1334,12 +1358,6 @@
                 "ref": "main"
             }
         },
-        "nix-community-first-time-contribution-tagger": {
-            "url": "https://github.com/nix-community/first-time-contribution-tagger.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
         "nix-community-flake-compat": {
             "url": "https://github.com/nix-community/flake-compat.git",
             "vcs-config": {
@@ -1370,6 +1388,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-flakelight": {
+            "url": "https://github.com/nix-community/flakelight.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "nix-community-gnome-session-ctl": {
             "url": "https://github.com/nix-community/gnome-session-ctl.git",
             "vcs-config": {
@@ -1378,6 +1402,12 @@
         },
         "nix-community-go-nix": {
             "url": "https://github.com/nix-community/go-nix.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-goblin-signing": {
+            "url": "https://github.com/nix-community/goblin-signing.git",
             "vcs-config": {
                 "ref": "main"
             }
@@ -1498,6 +1528,12 @@
         },
         "nix-community-luarocks-nix": {
             "url": "https://github.com/nix-community/luarocks-nix.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
+        "nix-community-manix": {
+            "url": "https://github.com/nix-community/manix.git",
             "vcs-config": {
                 "ref": "master"
             }
@@ -1774,6 +1810,12 @@
         },
         "nix-community-nixos-anywhere": {
             "url": "https://github.com/nix-community/nixos-anywhere.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "nix-community-nixos-anywhere-examples": {
+            "url": "https://github.com/nix-community/nixos-anywhere-examples.git",
             "vcs-config": {
                 "ref": "main"
             }
@@ -2314,12 +2356,6 @@
         },
         "numtide-nixmodules": {
             "url": "https://github.com/numtide/nixmodules.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
-        "numtide-nixos-anywhere-examples": {
-            "url": "https://github.com/numtide/nixos-anywhere-examples.git",
             "vcs-config": {
                 "ref": "main"
             }
