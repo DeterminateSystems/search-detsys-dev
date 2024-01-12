@@ -1892,6 +1892,12 @@
                 "ref": "master"
             }
         },
+        "nix-community-nixpkgs-xr": {
+            "url": "https://github.com/nix-community/nixpkgs-xr.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "nix-community-nixpkgs.lib": {
             "url": "https://github.com/nix-community/nixpkgs.lib.git",
             "vcs-config": {
