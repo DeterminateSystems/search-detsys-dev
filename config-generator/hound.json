@@ -1763,7 +1763,7 @@
         "nix-community-nixd": {
             "url": "https://github.com/nix-community/nixd.git",
             "vcs-config": {
-                "ref": "main"
+                "ref": "nixd-next"
             }
         },
         "nix-community-nixdoc": {
