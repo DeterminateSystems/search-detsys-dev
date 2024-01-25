@@ -1070,6 +1070,12 @@
                 "ref": "main"
             }
         },
+        "cachix-haskell-wishlist": {
+            "url": "https://github.com/cachix/haskell-wishlist.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-install-nix-action": {
             "url": "https://github.com/cachix/install-nix-action.git",
             "vcs-config": {
