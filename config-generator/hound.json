@@ -1022,6 +1022,12 @@
                 "ref": "master"
             }
         },
+        "cachix-fastcdc-rs2hs": {
+            "url": "https://github.com/cachix/fastcdc-rs2hs.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-fastspring": {
             "url": "https://github.com/cachix/fastspring.git",
             "vcs-config": {
