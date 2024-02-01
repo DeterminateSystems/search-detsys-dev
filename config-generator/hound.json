@@ -65,7 +65,7 @@
         "DeterminateSystems-elastic-ci-stack-for-aws": {
             "url": "https://github.com/DeterminateSystems/elastic-ci-stack-for-aws.git",
             "vcs-config": {
-                "ref": "main"
+                "ref": "grahamc-patch-1"
             }
         },
         "DeterminateSystems-elixir-nix": {
@@ -450,12 +450,6 @@
             "url": "https://github.com/DeterminateSystems/security-tracker.git",
             "vcs-config": {
                 "ref": "nixos"
-            }
-        },
-        "DeterminateSystems-tailscale": {
-            "url": "https://github.com/DeterminateSystems/tailscale.git",
-            "vcs-config": {
-                "ref": "main"
             }
         },
         "DeterminateSystems-tar-rs": {
