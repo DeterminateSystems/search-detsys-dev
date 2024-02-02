@@ -524,6 +524,12 @@
                 "ref": "main"
             }
         },
+        "NixOS-GSoC2024": {
+            "url": "https://github.com/NixOS/GSoC2024.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-aarch64-build-box": {
             "url": "https://github.com/NixOS/aarch64-build-box.git",
             "vcs-config": {
