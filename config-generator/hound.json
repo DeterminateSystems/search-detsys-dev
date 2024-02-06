@@ -524,8 +524,8 @@
                 "ref": "main"
             }
         },
-        "NixOS-GSoC2024": {
-            "url": "https://github.com/NixOS/GSoC2024.git",
+        "NixOS-GSoC": {
+            "url": "https://github.com/NixOS/GSoC.git",
             "vcs-config": {
                 "ref": "main"
             }
