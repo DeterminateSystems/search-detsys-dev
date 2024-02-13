@@ -626,6 +626,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-infra": {
+            "url": "https://github.com/NixOS/infra.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-jailbreak-cabal": {
             "url": "https://github.com/NixOS/jailbreak-cabal.git",
             "vcs-config": {
@@ -764,12 +770,6 @@
                 "ref": "main"
             }
         },
-        "NixOS-nixos-org-configurations": {
-            "url": "https://github.com/NixOS/nixos-org-configurations.git",
-            "vcs-config": {
-                "ref": "master"
-            }
-        },
         "NixOS-nixos-planet": {
             "url": "https://github.com/NixOS/nixos-planet.git",
             "vcs-config": {
@@ -798,6 +798,12 @@
             "url": "https://github.com/NixOS/nixos-weekly.git",
             "vcs-config": {
                 "ref": "master"
+            }
+        },
+        "NixOS-nixos-wiki-infra": {
+            "url": "https://github.com/NixOS/nixos-wiki-infra.git",
+            "vcs-config": {
+                "ref": "main"
             }
         },
         "NixOS-nixpart": {
