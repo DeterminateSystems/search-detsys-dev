@@ -1016,6 +1016,12 @@
                 "ref": "master"
             }
         },
+        "cachix-elm-hashcash": {
+            "url": "https://github.com/cachix/elm-hashcash.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-elm-semantic-ui": {
             "url": "https://github.com/cachix/elm-semantic-ui.git",
             "vcs-config": {
@@ -2374,6 +2380,12 @@
         },
         "numtide-nix-stdlib": {
             "url": "https://github.com/numtide/nix-stdlib.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-nix-vm-test": {
+            "url": "https://github.com/numtide/nix-vm-test.git",
             "vcs-config": {
                 "ref": "main"
             }
