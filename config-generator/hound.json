@@ -668,12 +668,6 @@
                 "ref": "master"
             }
         },
-        "NixOS-ngi0-infra": {
-            "url": "https://github.com/NixOS/ngi0-infra.git",
-            "vcs-config": {
-                "ref": "main"
-            }
-        },
         "NixOS-nix": {
             "url": "https://github.com/NixOS/nix.git",
             "vcs-config": {
