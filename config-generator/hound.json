@@ -644,6 +644,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-marketing": {
+            "url": "https://github.com/NixOS/marketing.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-mobile-nixos": {
             "url": "https://github.com/NixOS/mobile-nixos.git",
             "vcs-config": {
