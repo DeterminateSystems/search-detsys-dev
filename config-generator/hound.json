@@ -836,6 +836,12 @@
                 "ref": "released"
             }
         },
+        "NixOS-ofborg-viewer": {
+            "url": "https://github.com/NixOS/ofborg-viewer.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-package-list": {
             "url": "https://github.com/NixOS/package-list.git",
             "vcs-config": {
@@ -1314,6 +1320,12 @@
             "url": "https://github.com/nix-community/disko-templates.git",
             "vcs-config": {
                 "ref": "main"
+            }
+        },
+        "nix-community-dns.nix": {
+            "url": "https://github.com/nix-community/dns.nix.git",
+            "vcs-config": {
+                "ref": "master"
             }
         },
         "nix-community-docker-nix": {
