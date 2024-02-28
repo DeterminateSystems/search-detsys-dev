@@ -494,6 +494,12 @@
                 "ref": "main"
             }
         },
+        "DeterminateSystems-vaultrs": {
+            "url": "https://github.com/DeterminateSystems/vaultrs.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "DeterminateSystems-zero-to-nix": {
             "url": "https://github.com/DeterminateSystems/zero-to-nix.git",
             "vcs-config": {
@@ -569,7 +575,7 @@
         "NixOS-distribution-nixpkgs": {
             "url": "https://github.com/NixOS/distribution-nixpkgs.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "moved"
             }
         },
         "NixOS-equinix-metal-builders": {
@@ -605,7 +611,7 @@
         "NixOS-hackage-db": {
             "url": "https://github.com/NixOS/hackage-db.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "moved"
             }
         },
         "NixOS-hydra": {
@@ -641,7 +647,7 @@
         "NixOS-language-nix": {
             "url": "https://github.com/NixOS/language-nix.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "moved"
             }
         },
         "NixOS-marketing": {
