@@ -1088,6 +1088,12 @@
                 "ref": "master"
             }
         },
+        "cachix-gptcomment": {
+            "url": "https://github.com/cachix/gptcomment.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "cachix-haskell-ascii-progress": {
             "url": "https://github.com/cachix/haskell-ascii-progress.git",
             "vcs-config": {
