@@ -767,7 +767,7 @@
         "NixOS-nixos-homepage": {
             "url": "https://github.com/NixOS/nixos-homepage.git",
             "vcs-config": {
-                "ref": "master"
+                "ref": "main"
             }
         },
         "NixOS-nixos-metrics": {
@@ -1018,6 +1018,12 @@
         },
         "cachix-devenv": {
             "url": "https://github.com/cachix/devenv.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "cachix-devenv-nixpkgs": {
+            "url": "https://github.com/cachix/devenv-nixpkgs.git",
             "vcs-config": {
                 "ref": "main"
             }
