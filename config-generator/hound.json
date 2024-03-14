@@ -722,6 +722,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-nixfmt": {
+            "url": "https://github.com/NixOS/nixfmt.git",
+            "vcs-config": {
+                "ref": "master"
+            }
+        },
         "NixOS-nixops": {
             "url": "https://github.com/NixOS/nixops.git",
             "vcs-config": {
@@ -2290,6 +2296,12 @@
         },
         "numtide-clean-git-action": {
             "url": "https://github.com/numtide/clean-git-action.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
+        "numtide-configure-nix-action": {
+            "url": "https://github.com/numtide/configure-nix-action.git",
             "vcs-config": {
                 "ref": "main"
             }
