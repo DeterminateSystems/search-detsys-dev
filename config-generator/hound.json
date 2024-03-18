@@ -830,6 +830,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-nixpkgs-check-by-name": {
+            "url": "https://github.com/NixOS/nixpkgs-check-by-name.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-nixpkgs-merge-bot": {
             "url": "https://github.com/NixOS/nixpkgs-merge-bot.git",
             "vcs-config": {
