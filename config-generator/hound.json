@@ -632,6 +632,12 @@
                 "ref": "master"
             }
         },
+        "NixOS-hydra-scale-equinix-metal": {
+            "url": "https://github.com/NixOS/hydra-scale-equinix-metal.git",
+            "vcs-config": {
+                "ref": "main"
+            }
+        },
         "NixOS-infra": {
             "url": "https://github.com/NixOS/infra.git",
             "vcs-config": {
